@@ -10,8 +10,12 @@
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
     <style>
-        .gradient{
+        .gradient {
             background-image: linear-gradient(to bottom right, #4c51bf, #702459);
+        }
+
+        .gradient-skill {
+            background-image: linear-gradient(#fc8181, #fed7d7);
         }
     </style>
     <title>Wep Porto CodePolitan</title>
@@ -90,7 +94,9 @@
                         <hr class="text-gray-600 mb-2">
                     </div>
                     <div class="px-2 py-4">
-                        <button class="bg-blue-500 hover:bg-blue-700 md:bg-red-500 text-white font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg">Lihat Portofolio</button>
+                        <button
+                            class="bg-blue-500 hover:bg-blue-700 md:bg-red-500 text-white font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg">Lihat
+                            Portofolio</button>
                     </div>
                 </div>
                 <div class="max-w-sm shadow-lg px-4 py-4 bg-white m-3 text-center">
@@ -107,7 +113,9 @@
                         <hr class="text-gray-600 mb-2">
                     </div>
                     <div class="px-2 py-4">
-                        <button class="bg-blue-500 hover:bg-blue-700 text-white md:bg-red-500 font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg">Lihat Portofolio</button>
+                        <button
+                            class="bg-blue-500 hover:bg-blue-700 text-white md:bg-red-500 font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg">Lihat
+                            Portofolio</button>
                     </div>
                 </div>
                 <div class="max-w-sm shadow-lg px-4 py-4 bg-white m-3 text-center">
@@ -124,20 +132,46 @@
                         <hr class="text-gray-600 mb-2">
                     </div>
                     <div class="px-2 py-4">
-                        <button class="bg-blue-500 hover:bg-blue-700 text-white md:bg-red-500 font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg">Lihat Portofolio</button>
+                        <button
+                            class="bg-blue-500 hover:bg-blue-700 text-white md:bg-red-500 font-bold px-4 py-2 shadow-md rounded-tl-lg rounded-br-lg">Lihat
+                            Portofolio</button>
                     </div>
                 </div>
             </div>
         </div>
 
     </section>
-    <section class="w-screen mx-auto py-4 bg-white">
+    <section class="container mx-auto py-4 bg-white px-4">
         <div class="flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+            <div class="w-full md:w-4/12 mx-auto px-4 py-5 sm:py-32">
                 <img src="/img/turu.jpg" class="max-w-full rounded-lg shadow-lg">
             </div>
-            <div class="w-full md:w-5/12 ml-auto mr-auto px-4 bg-pink-500 h-32">
-                
+            <div class="w-full md:w-5/12 mx-auto px-4 py-10 sm:py-24">
+                <div class="md:pr-12">
+                    <h1 class="w-full my-2 text-5xl font-bold text-center text-gray-700">Skill Framework</h1>
+                    <div class="mb-4">
+                        <div class="h-1 mx-auto bg-purple-500 w-1/2 opacity-75 my-0 rounded"></div>
+                    </div>
+                    <p class="mt-4 text-lg text-gray-600">Berikut adalah item dan skala keahlian untuk framework :</p>
+                    <ul class="list-none mt-4">
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">Laravel</p>
+                            <div class="gradient-skill w-7/8"></div>
+                        </li>
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">React</p>
+                            <div class="gradient-skill w-3/4"></div>
+                        </li>
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">Bootstrap</p>
+                            <div class="gradient-skill w-2/3"></div>
+                        </li>
+                        <li class="grid grid-cols-2 py-2">
+                            <p class="text-lg text-gray-600">TailwindCss</p>
+                            <div class="gradient-skill w-1/2"></div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
